@@ -8,13 +8,21 @@ It attempts to be a sensible default .gitignore file for Javascript libraries / 
 
 
 ----
+<br>
 
-### Download the ultimate gitignore
-[ultimate.gitignore](download)
-### Run this command inside your project folder
-```sh
-curl https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore > .gitignore
-```
+## Add to your project folder
+
+- Download the
+  [ultimate.gitignore](download)
+
+<center>or</center>
+
+- Via command line 
+  ```sh
+  curl https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore > .gitignore
+  ```
+
+<br>
 
 -----
 
@@ -38,9 +46,8 @@ For more details check out [template.txt][template] and [exclude.txt][exclude]
 Feel free to open a [Pull Request][pr] to the repository
 
 
- [download]: <https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore>
- [template]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_template.txt> 
- [exclude]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_exclude.txt> 
- [pr]: <https://github.com/victornpb/ultimate-git-ignore/pulls>
- [github-gitignore]: <https://github.com/github/gitignore>
- 
+  [download]: <https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore>
+  [template]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_template.txt> 
+  [exclude]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_exclude.txt> 
+  [pr]: <https://github.com/victornpb/ultimate-git-ignore/pulls>
+  [github-gitignore]: <https://github.com/github/gitignore>
