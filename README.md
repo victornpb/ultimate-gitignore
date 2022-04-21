@@ -1,7 +1,7 @@
 # ultimate-git-ignore
 
 
-https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore
+[ultimate.gitignore](https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore)
 
 
 ```sh
