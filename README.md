@@ -8,40 +8,32 @@ It attempts to be a sensible default .gitignore file for Javascript libraries / 
 
 
 ----
-## Adding it to your project
 
-#### Download the ultimate gitignore
+### Download the ultimate gitignore
 [ultimate.gitignore](download)
-
-#### Run this command inside your project folder
+### Run this command inside your project folder
 ```sh
 curl https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore > .gitignore
 ```
 
 -----
 
-## Summary
+### Summary
 
 <!--SUMMARY-->
 <!-- auto generated do not modify -->
-```
-Total:    388 lines (7.81 KB)
-Comments: 134
-Rules:    155
-```
-
 |          |                     |
 |----------|---------------------|
-| Total    | 388 lines (7.81 KB) |
-| Comments | 134                 |
 | Rules    | 155                 |
+| Comments | 134                 |
+| Total    | 388 lines (7.81 KB) |
 <!--END-->
 
 For more details check out [template.txt][template] and [exclude.txt][exclude]
 
 -----
 
-## Contributing
+### Contributing
 
 Feel free to open a [Pull Request][pr] to the repository
 

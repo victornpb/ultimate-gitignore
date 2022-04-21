@@ -80,22 +80,14 @@ async function main() {
 
     // Update the README
     const readme = fs.readFileSync('README.md', 'utf8');
-    const outputDescription = S(`
-        <!-- auto generated do not modify -->
-        \`\`\`
-        Total:    ${text.split(/$/gm).length} lines (${(text.length / 1024).toFixed(2)} KB)
-        Comments: ${text.match(/^#/gm).length}
-        Rules:    ${text.match(/^[^#\s]+/gm).length}
-        \`\`\``
-        +'\n\n'+
+    const outputDescription = '<!-- auto generated do not modify -->\n'+
         asciitable([
-            ['',''],
+            ['', ''],
             null,
-            ['Total', text.split(/$/gm).length +' lines ('+ (text.length / 1024).toFixed(2) +' KB)'],
-            ['Comments', text.match(/^#/gm).length],
             ['Rules', text.match(/^[^#\s]+/gm).length],
-        ], gihubTable)
-    );
+            ['Comments', text.match(/^#/gm).length],
+            ['Total', text.split(/$/gm).length + ' lines (' + (text.length / 1024).toFixed(2) + ' KB)'],
+        ], gihubTable);
 
 
     const newReadme = replaceBetween(readme, '<!--SUMMARY-->', '<!--END-->', `\n${outputDescription}\n`);
