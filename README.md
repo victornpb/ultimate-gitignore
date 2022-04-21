@@ -23,7 +23,21 @@ curl https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore > .gitig
 ## Summary
 
 <!--SUMMARY-->
+<!-- auto generated do not modify -->
+```
+Total:    388 lines (7.81 KB)
+Comments: 134
+Rules:    155
+```
+
+|          |                     |
+|----------|---------------------|
+| Total    | 388 lines (7.81 KB) |
+| Comments | 134                 |
+| Rules    | 155                 |
 <!--END-->
+
+For more details check out [template.txt][template] and [exclude.txt][exclude]
 
 -----
 
@@ -33,8 +47,8 @@ Feel free to open a [Pull Request][pr] to the repository
 
 
  [download]: <https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore>
- [github-gitignore]: <https://github.com/github/gitignore>
  [template]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_template.txt> 
  [exclude]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_exclude.txt> 
  [pr]: <https://github.com/victornpb/ultimate-git-ignore/pulls>
+ [github-gitignore]: <https://github.com/github/gitignore>
  

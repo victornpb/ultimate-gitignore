@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const child_process = require('child_process');
 const S = require('tiny-dedent');
+const asciitable = require('asciitable.js');
 
 const TEMPLATE = '_template.txt';
 const EXCLUDE = '_exclude.txt';
@@ -76,9 +77,50 @@ async function main() {
     
         ${path.resolve(OUTPUTNAME)}\n\n
         `));
-}
-main();
 
+    // Update the README
+    const readme = fs.readFileSync('README.md', 'utf8');
+    const outputDescription = S(`
+        <!-- auto generated do not modify -->
+        \`\`\`
+        Total:    ${text.split(/$/gm).length} lines (${(text.length / 1024).toFixed(2)} KB)
+        Comments: ${text.match(/^#/gm).length}
+        Rules:    ${text.match(/^[^#\s]+/gm).length}
+        \`\`\``
+        +'\n\n'+
+        asciitable([
+            ['',''],
+            null,
+            ['Total', text.split(/$/gm).length +' lines ('+ (text.length / 1024).toFixed(2) +' KB)'],
+            ['Comments', text.match(/^#/gm).length],
+            ['Rules', text.match(/^[^#\s]+/gm).length],
+        ], gihubTable)
+    );
+
+
+    const newReadme = replaceBetween(readme, '<!--SUMMARY-->', '<!--END-->', `\n${outputDescription}\n`);
+    fs.writeFileSync('README.md', newReadme);
+}
+
+
+
+const gihubTable = {
+  row: {
+    paddingLeft: '|',
+    paddingRight: '|',
+    colSeparator: '|',
+    lineBreak: '\n'
+  },
+  cell: {
+    paddingLeft: ' ',
+    paddingRight: ' ',
+    defaultAlignDir: -1
+  },
+  hr: {
+    str: '-',
+    colSeparator: '|'
+  }
+};
 
 // ----------- Utility functions ----------
 function escapeRegex(string) {
@@ -119,3 +161,10 @@ function log() {
 function info() {
     log('\n●', ...arguments)
 }
+function replaceBetween(str, startString, endString, substitute) {
+    const startIndex = str.indexOf(startString);
+    const endIndex = str.indexOf(endString, startIndex + startString.length);
+    return (startIndex !== -1 && endIndex !== -1) ? str.slice(0, startIndex + startString.length) + substitute + str.slice(endIndex) : str;
+}
+
+main();

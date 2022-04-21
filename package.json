@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/victornpb/ultimate-gitignore#readme",
   "devDependencies": {
+    "asciitable.js": "^1.0.3",
     "nodemon": "^2.0.15",
     "tiny-dedent": "^1.0.2"
   },
