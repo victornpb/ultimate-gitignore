@@ -1,3 +1,5 @@
-# LOL this is not the gitignore you're looking for!
+# The gitignore you're looking for is here:
+# https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore
+
 gitignore/
 node_modules/

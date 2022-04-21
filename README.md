@@ -1,19 +1,30 @@
  ultimate-git-ignore
-======================
+===============================================================================
 The ultimate Javascript development `.gitignore`
 
 
-This project [compiles multiple][template] .gitignore from the [github/gitignore][github-gitignore] repository.  
-It attempts to be a sensible default .gitignore file for Javascript libraries / Node.JS / WebApp projects
+This project [compiles multiple][template] .gitignore from the [GitHub's gitignore Collection][github-gitignore].  
+It attempts to be a sensible default .gitignore file for Javascript Projects and libraries (Node.JS / Browser)
 
 
-----
-<br>
+For more information about how `.gitignore` files work, and how to use them,
+the following resources are a great place to start:
 
-## Add to your project folder
+- The [Ignoring Files chapter][chapter] of the [Pro Git][progit] book.
+- The [Ignoring Files article][help] on the GitHub Help site.
+- The [gitignore(5)][man] manual page.
+
+[man]: http://git-scm.com/docs/gitignore
+[help]: https://help.github.com/articles/ignoring-files
+[chapter]: https://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
+[progit]: http://git-scm.com/book
+
+
+Add to your project folder
+===============================================================================
 
 - Download the
-  [ultimate.gitignore](download)
+  [ultimate.gitignore][download]
 
 <center>or</center>
 
@@ -22,11 +33,9 @@ It attempts to be a sensible default .gitignore file for Javascript libraries / 
   curl https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore > .gitignore
   ```
 
-<br>
 
------
-
-### Summary
+Summary
+-------------------------------------------------------------------------------
 
 <!--SUMMARY-->
 <!-- auto generated do not modify -->
@@ -39,14 +48,33 @@ It attempts to be a sensible default .gitignore file for Javascript libraries / 
 
 For more details check out [template.txt][template] and [exclude.txt][exclude]
 
------
 
-### Contributing
+Contributing workflow
+-------------------------------------------------------------------------------
 
-Feel free to open a [Pull Request][pr] to the repository
+Here’s how we suggest you go about proposing a change to this project:
+
+1. [Fork this project][fork] to your account.
+2. [Create a branch][branch] for the change you intend to make.
+3. Make your changes to your fork.
+4. [Send a pull request][pr] from your fork’s branch to our `main` branch.
+
+Using the web-based interface to make changes is fine too, and will help you
+by automatically forking the project and prompting to send a pull request too.
+
+[fork]: https://help.github.com/articles/fork-a-repo/
+[branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
 
 
-  [download]: <https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore>
+License
+-------------------------------------------------------------------------------
+
+[CC0-1.0](./LICENSE).
+
+
+
+
+  [download]: <https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore> "Download the ultimate .gitignore file"
   [template]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_template.txt> 
   [exclude]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_exclude.txt> 
   [pr]: <https://github.com/victornpb/ultimate-git-ignore/pulls>
