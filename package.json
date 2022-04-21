@@ -1,8 +1,8 @@
 {
-  "name": "ultimate-git-ignore",
+  "name": "ultimate-gitignore",
   "version": "1.0.0",
   "description": "The ultimate gitignore file for JavaScript projects and libraries",
-  "main": "index.js",
+  "bin": "download.sh",
   "scripts": {
     "start": "npm run watch",
     "build": "node index.js",

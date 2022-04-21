@@ -23,16 +23,24 @@ the following resources are a great place to start:
 Add to your project folder
 ===============================================================================
 
-- Download the
-  [ultimate.gitignore][download]
+<center>
 
-<center>or</center>
+### Download the
+### **[ultimate.gitignore][download]**
 
-- Via command line 
-  ```sh
-  curl https://victornpb.github.io/ultimate-gitignore/ultimate.gitignore > .gitignore
-  ```
+or
 
+### Via command line  
+```sh
+npx ultimate-gitignore
+```
+
+or
+
+```sh
+curl https://victornpb.github.io/ultimate-gitignore/ultimate.gitignore > .gitignore
+```
+</center>
 
 Summary
 -------------------------------------------------------------------------------
