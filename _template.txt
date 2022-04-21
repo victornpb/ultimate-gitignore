@@ -1,0 +1,23 @@
+###############################################################################
+# Project Specific GitIgnore
+###############################################################################
+
+#.foobar
+
+
+###############################################################################
+# Ultimate GitIgnore for Javascript/Node.js
+# https://github.com/victornpb/ultimate-gitignore
+###############################################################################
+
+#include: gitignore/Node
+#include: gitignore/Sass
+#include: gitignore/community/JavaScript/Vue
+
+#include: gitignore/Global/VisualStudioCode
+#include: gitignore/Global/JetBrains
+#include: gitignore/Global/SublimeText
+
+#include: gitignore/Global/MacOs
+#include: gitignore/Global/Linux
+#include: gitignore/Global/Windows

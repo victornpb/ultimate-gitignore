@@ -1,0 +1,37 @@
+{
+  "name": "ultimate-git-ignore",
+  "version": "1.0.0",
+  "description": "This is GitHub's collection of [`.gitignore`][man] file templates. We use this list to populate the `.gitignore` template choosers available in the GitHub.com interface when creating new repositories and files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch",
+    "build": "node index.js",
+    "watch": "nodemon --ext txt,js --exec \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victornpb/ultimate-gitignore.git"
+  },
+  "keywords": [
+    "gitignore",
+    "ignore",
+    "git",
+    "javascript",
+    "node",
+    "vue",
+    "react"
+  ],
+  "author": "victornpb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victornpb/ultimate-gitignore/issues"
+  },
+  "homepage": "https://github.com/victornpb/ultimate-gitignore#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "tiny-dedent": "^1.0.2"
+  },
+  "engines": {
+    "node": ">15.0.0"
+  }
+}

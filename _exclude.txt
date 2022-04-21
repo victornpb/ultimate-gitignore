@@ -1,0 +1,7 @@
+# Rules we want to be removed from the ultimate gitignore
+
+# example exclusion
+.foo.bar.baz
+
+# this rule seems too broad
+logs
