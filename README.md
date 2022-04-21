@@ -1,4 +1,4 @@
- ultimate-git-ignore
+ ultimate-gitignore
 ===============================================================================
 The ultimate Javascript development `.gitignore`
 
@@ -30,7 +30,7 @@ Add to your project folder
 
 - Via command line 
   ```sh
-  curl https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore > .gitignore
+  curl https://victornpb.github.io/ultimate-gitignore/ultimate.gitignore > .gitignore
   ```
 
 
@@ -74,8 +74,8 @@ License
 
 
 
-  [download]: <https://victornpb.github.io/ultimate-git-ignore/ultimate.gitignore> "Download the ultimate .gitignore file"
-  [template]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_template.txt> 
-  [exclude]: <https://github.com/victornpb/ultimate-git-ignore/blob/main/_exclude.txt> 
-  [pr]: <https://github.com/victornpb/ultimate-git-ignore/pulls>
+  [download]: <https://victornpb.github.io/ultimate-gitignore/ultimate.gitignore> "Download the ultimate .gitignore file"
+  [template]: <https://github.com/victornpb/ultimate-gitignore/blob/main/_template.txt> 
+  [exclude]: <https://github.com/victornpb/ultimate-gitignore/blob/main/_exclude.txt> 
+  [pr]: <https://github.com/victornpb/ultimate-gitignore/pulls>
   [github-gitignore]: <https://github.com/github/gitignore>
