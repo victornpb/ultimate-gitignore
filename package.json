@@ -1,7 +1,7 @@
 {
   "name": "ultimate-git-ignore",
   "version": "1.0.0",
-  "description": "This is GitHub's collection of [`.gitignore`][man] file templates. We use this list to populate the `.gitignore` template choosers available in the GitHub.com interface when creating new repositories and files.",
+  "description": "The ultimate gitignore file for JavaScript projects and libraries",
   "main": "index.js",
   "scripts": {
     "start": "npm run watch",
@@ -14,12 +14,20 @@
   },
   "keywords": [
     "gitignore",
-    "ignore",
     "git",
+    "ignore",
     "javascript",
+    "default",
+    "boilerplate",
+    "scaffolding",
+    "template",
+    "repository",
     "node",
     "vue",
-    "react"
+    "react",
+    "rollup",
+    "webpack",
+    "babel"
   ],
   "author": "victornpb",
   "license": "CC0-1.0",
