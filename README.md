@@ -23,24 +23,21 @@ the following resources are a great place to start:
 Add to your project folder
 ===============================================================================
 
-<center>
-
-### Download the
-### **[ultimate.gitignore][download]**
-
-or
-
-### Via command line  
+### Run this command
 ```sh
 npx ultimate-gitignore
 ```
 
-or
+#### Precompiled file
+ You can also download a precompiled file, if you don't want to run the build script:
 
 ```sh
 curl https://victornpb.github.io/ultimate-gitignore/ultimate.gitignore > .gitignore
 ```
-</center>
+ 
+#### Manually download the:
+### **[ultimate.gitignore][download]**
+
 
 Summary
 -------------------------------------------------------------------------------
@@ -80,10 +77,9 @@ License
 [CC0-1.0](./LICENSE).
 
 
-
-
-  [download]: <https://victornpb.github.io/ultimate-gitignore/ultimate.gitignore> "Download the ultimate .gitignore file"
+<!-- Links -->
+  [github-gitignore]: <https://github.com/github/gitignore>
+  [pr]: <https://github.com/victornpb/ultimate-gitignore/pulls>
   [template]: <https://github.com/victornpb/ultimate-gitignore/blob/main/_template.txt> 
   [exclude]: <https://github.com/victornpb/ultimate-gitignore/blob/main/_exclude.txt> 
-  [pr]: <https://github.com/victornpb/ultimate-gitignore/pulls>
-  [github-gitignore]: <https://github.com/github/gitignore>
+  [download]: <https://victornpb.github.io/ultimate-gitignore/ultimate.gitignore> "Download the ultimate .gitignore file"
